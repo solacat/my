@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Global CSS */
+body{
+	margin:auto;
+	font-family:Verdana, Geneva, sans-serif;
+}
+ul li{
+	margin:0px;
+}
+#x,#y,#incolor{
+	display:none;
+}
+
+/*Main CSS */
+#main{
+	width:100%;
+	height:100%;
+}
+#canvas{
+	margin-left:61px;
+}
+#page{
+	border: 1px solid #BDBDBD;
+	margin:auto;
+}
+#selects{
+	width:1342px;
+	background:#00BFFF;
+}
+#logo{
+	float:left;
+	width:60px;
+	height:40px;
+	background:#69C;
+	border: 1px solid #BDBDBD;
+}
+#logo_word{
+	padding-top:10px;
+}
+#colors{
+	float:right;
+	margin-right:400px;
+	margin-top:10px;
+	width:800px;
+}
+#tools{
+	background:#69C;
+	float:left;
+	height:601px;
+	width:60px;
+	margin-top:1px;
+}
+#choose{
+	margin-top:50px;
+	width:60px;
+	height:20px;
+	cursor:pointer;
+	text-align:center;
+}
+#choose:hover{
+	margin-top:50px
+	width:60px;
+	height:20px;
+	cursor:pointer;
+	border-radius:4px;
+	background:#00B2EE;
+	text-align:center;
+}
+#fill{
+	margin-top:50px;
+	width:60px;
+	height:20px;
+	cursor:pointer;
+	text-align:center;
+}
+#fill:hover{
+	margin-top:50px;
+	width:60px;
+	height:20px;
+	cursor:pointer;
+	text-align:center;
+	background:#00B2EE;
+}
+#choose_active{
+	margin-top:50px
+	width:60px;
+	height:20px;
+	cursor:pointer;
+	border-radius:4px;
+	background:#00B2EE;
+	text-align:center;
+}
+#line{
+	margin-top:50px;
+	width:60px;
+	height:20px;
+	cursor:pointer;
+	text-align:center;
+}
+#line:hover{
+	margin-top:50px
+	width:60px;
+	height:20px;
+	cursor:pointer;
+	border-radius:4px;
+	background:#00B2EE;
+	text-align:center;
+}
+#line_active{
+	margin-top:50px
+	width:60px;
+	height:20px;
+	cursor:pointer;
+	border-radius:4px;
+	background:#00B2EE;
+	text-align:center;
+}
+#rectangle{
+	width:60px;
+	height:40px;
+	cursor:pointer;
+	margin-top:50px;
+	text-align:center;
+}
+#rectangle:hover{
+	margin-top:50px
+	width:60px;
+	height:40px;
+	cursor:pointer;
+	border-radius:4px;
+	background:#00B2EE;
+	text-align:center;
+}
+#rectangle_active{
+	margin-top:50px
+	width:60px;
+	height:40px;
+	cursor:pointer;
+	border-radius:4px;
+	background:#00B2EE;
+	text-align:center;
+}
+#circle{
+	width:60px;
+	height:30px;
+	cursor:pointer;
+	margin-top:50px;
+	text-align:center;
+}
+#circle:hover{
+	margin-top:50px
+	width:60px;
+	height:20px;
+	cursor:pointer;
+	border-radius:4px;
+	background:#00B2EE;
+	text-align:center;
+}
+#circle_active{
+	margin-top:50px
+	width:60px;
+	height:20px;
+	cursor:pointer;
+	border-radius:4px;
+	background:#00B2EE;
+	text-align:center;
+}
+
+/*clear*/
+.clear{
+	clear:both;
+}

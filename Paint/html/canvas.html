@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Painting</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script language="javascript" type="text/javascript" src="js/model.js"></script>
+<script language="javascript" type="text/javascript" src="js/app.js"></script>
+<script language="javascript" type="text/javascript" src="js/style.js"></script>
+</head>
+
+<body>
+<input id="x" value=" "/>
+<input id="y" value=" "/>
+<input id="incolor" value="#FF0000" />
+<div id="main">
+	<div id="selects">
+    	<div id="logo">
+        	<div id="logo_word"><a>Canvas</a></div>
+        </div>
+        <div id="colors">
+        	<a>颜色：</a>
+            <select id="color">
+                <option value="#FF0000">红色</option>
+                <option value="#000000">黑色</option>
+                <option value="#008B00">绿色</option>
+            </select>
+            <a>半径：</a>
+            <input id="r2" value=""/>
+            <a>px</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+	<div id="tools">
+    	<div id="choose"><a>Choose</a></div>
+        <div id="fill"><a>Fill</a></div>
+    	<div id="line"><a>Line</a></div>
+   		<div id="rectangle"><a>Recta<br />ngle</a></div>
+    	<div id="circle"><a>Circle</a></div>
+    </div>
+    <div id="canvas">
+		<canvas id="page" width="1280px" height="600px"></canvas>
+    </div>
+</div>
+</body>
+</html>
