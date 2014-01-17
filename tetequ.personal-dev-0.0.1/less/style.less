@@ -1,0 +1,407 @@
+/*
+DATE:2014/1/17;
+OWNER:sola_cat;
+*/
+
+
+/* css reset www.admin10000.com */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-family: Verdana, Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal;}
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+strong{
+	font-size: 1.3em;
+}
+/* css common */
+
+body{
+	background-color: #eee;
+	font-family: "微软雅黑";
+	font-size:62.5%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix{
+	*zoom:1;
+}
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
+.page{
+	margin: auto;
+	width: 990px;
+}
+.page-c{
+	margin: auto;
+	width: 400px;
+}
+.container{
+	text-align: left;
+	margin: 0 auto;
+	width: 100%;
+}
+
+/*header style*/
+
+/*顶部一级导航栏*/
+.header{
+	height: 134px;
+	border-bottom:1px solid rgb(0,0,0);
+}
+
+.global-nav{
+	height: 27px;
+	background-color: #3d474a;
+	em,span{
+		line-height: 27px;
+		color: #fff;
+		font-size: 1.3em;
+		display: inline-block;
+		height: 19px;
+		a{
+			color:#fff;
+		}
+	}
+}
+
+
+/*顶部二级导航栏（含logo部分）*/
+.headerM-container{
+	width: 100%;
+	background-color: #f6f6f6;
+}
+
+.headerM{
+	height: 40px;
+	background-color: #f6f6f6;
+	padding: 17px 0 18px;
+	.logo{
+		float: left;
+		width: 143px;
+		height: 45px;
+		background: url(../img/logo.png) no-repeat;
+	}
+	.backOld{
+	line-height: 43px;
+	margin-left: 15px;
+	font-size: 1.2em;
+	color: #08C;
+	font-size: 1.2em;
+	cursor: pointer;
+	}
+}
+
+
+
+.heardNav{
+	float: right;
+	height: 24px;
+	padding-top: 20px;
+	li{
+		float: left;
+		display: inline;
+		margin-left: 42px;
+		font-size: 1.6em;
+		a.active{
+			color: #e66e1e;
+		}
+		a{
+			color: #666;
+			&:hover{
+				color:#e66e1e;
+				text-decoration: none;
+			}
+		}
+	}
+
+}
+
+
+/*顶部三级导航栏（注意浮动）*/
+.headerF{
+	width: 100%;
+	height: 32px;
+	position: absolute;
+	background-color: #e3e3e3;
+	background-color: rgba(255,255,255,.7);
+	.h-con li{
+		float: left;
+		margin-top: 2px;
+		font-size: 1.2em;
+		&.active a{
+			color:#fff;
+			background-color: #676d70;
+			border-radius:2px;
+		}
+		a{
+			display: block;
+			padding: 6px 25px;
+			color: #676d70;
+			&:hover{
+				color:#e66e1e;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+
+/*浮动部分*/
+.headerF-b{
+	width: 100%;
+	height: 141px;
+	background: url(../img/back.jpg) no-repeat center;
+}
+
+
+.userNav{
+	height: 86px;
+
+	.userHead{
+		height: 80px;
+		width: 80px;
+		background: url(../img/ui2.png) no-repeat;
+		background-position:-156px -320px;
+		float: left;
+		overflow:hidden;
+		border-radius: 50%;
+		border: 2px solid #e1e1e1;
+	}
+
+	.userInfo{
+		color: white;
+		width: 904px;
+		margin-left: 80px;
+
+		.userWelcome{
+			padding-top: 26px;
+			padding-left: 20px;
+			padding-bottom: 10px;
+			.welcome1{
+				font-size: 1.6em;
+				line-height: 16px;
+			}
+
+			.welcome2{
+				font-size: 1.2em;
+				margin-left: 5px;
+			}
+		}
+
+		.userInfors{
+			font-size: 1.2em;
+			padding-top: 12px;
+			padding-left: 20px;
+
+			em{
+				color: white;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+			.safeLev a{
+				color: #9f9;
+			}
+		}
+
+	}
+}
+
+
+
+/*main style*/
+
+.main{
+	width: 990px;
+	margin: auto;
+	font-size: 1.4em;
+}
+
+.myAccount{
+	height: 244px;
+	margin-top: 123px;
+}
+
+.accountInfo{
+	float: left;
+	width: 480px;
+	border: 1px solid rgb(223,223,223);
+	background-color: #fff;
+
+	.myMoney-container{
+		width: 400px;
+		margin: auto;
+		margin-top: 10px;
+
+		.accounts{
+			height: 190px;
+			margin-top: 25px;
+
+			.accounts-l{
+				float: left;
+				height: 150px;
+				width: 150px;
+				border: 1px solid rgb(223,223,223);	
+			}
+
+			.accounts-r{
+				float: right;
+				height: 150px;
+				margin-right: 50px;
+					
+				ul li{
+					margin-top: 15px;
+
+					.buy{
+						padding: 1px 10px 1px;
+						background-color: #e66e1e;
+						border-radius: 2px;
+						border: 1px solid #d85701;
+						color: white;
+						font-size: 0.9em;
+						cursor:pointer;
+						margin-left: 10px;
+					}
+
+					.detail{
+						color: #08C;
+						font-size: .9em;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+}
+
+.workRoom{
+	width: 480px;
+	height: 244px;
+	float: right;
+	border: 1px solid rgb(223,223,223);
+	background-color: #fff;
+
+	.workRoom-container{
+		width: 400px;
+		margin: auto;
+		margin-top: 10px;
+
+		.roomList{
+			margin-top: 30px;
+
+			ul li{
+				margin-top: 20px;
+
+				.help{
+					color: rgb(0,136,204);
+					cursor: pointer;
+				}
+
+				.enter{
+					padding: 1px 10px 1px;
+					background-color: #869ef8;
+					border-radius: 2px;
+					border: 1px solid #6685f6;	
+					color: white;
+					font-size: .9em;
+					cursor:pointer;
+				}
+			}
+		}
+	}
+}
+
+
+.recentUse{
+	height: 249px;
+	margin-top: 15px;
+	background-color: #fff;
+	border: 1px solid rgb(223,223,223);
+
+	.recentH{
+		height: 45px;
+		margin: auto;
+
+		.title{
+			float: left;
+			margin-left: 45px;
+			margin-top: 10px;
+		}
+	}
+
+	.recentF{
+
+		table{
+			height: 205px;
+			width: 988px;
+
+			.table-t{
+				background-color: #f1f1f1;
+				border-bottom: 1px solid rgb(223,223,223);
+
+				.roomName{
+					width: 190px;
+				}
+
+				.vedioTime{
+					width: 160px;
+				}
+
+				.persons{
+					width: 80px;
+				}
+
+				.backUrl{
+					width: 360px;
+				}
+			}
+
+			.table-v{
+				background-color: #f1f1f1;
+			}
+
+			tr{
+				height: 30px;
+				text-align: center;
+
+				.downloads{
+					color: rgb(0,136,204);
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+/*footer style*/
+
+.footer{
+	height: 54px;
+	background-color: #333;
+
+	.footer-container{
+		width: 990px;
+		margin: auto;
+	}
+}
+
+
+/*clear*/
+._black{
+	height: 44px;
+}
